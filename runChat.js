@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const API_KEY = process.env.GEMINI_API_KEY; // Replace with your Gemini API key
-const MODEL_NAME = 'your_model_name'; // Replace with your Gemini model name
+const MODEL_NAME = 'gemini-pro'; // Replace with your Gemini model name
 
 async function runChat(prompt) {
   try {
